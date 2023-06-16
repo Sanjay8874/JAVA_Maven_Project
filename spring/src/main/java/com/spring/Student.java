@@ -9,19 +9,19 @@ public class Student {
 		return StudentID;
 	}
 	public void setStudentID(int studentID) {
-		StudentID = studentID;
+		this.StudentID = studentID;
 	}
 	public String getStudentName() {
 		return StudentName;
 	}
 	public void setStudentName(String studentName) {
-		StudentName = studentName;
+		this.StudentName = studentName;
 	}
 	public String getStudentAdderess() {
 		return StudentAdderess;
 	}
 	public void setStudentAdderess(String studentAdderess) {
-		StudentAdderess = studentAdderess;
+		this.StudentAdderess = studentAdderess;
 	}
 	public Student(int studentID, String studentName, String studentAdderess) {
 		super();
